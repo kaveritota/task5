@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <center> <h1>GENERAL BUS PASS APPLICATION</h1></center>
+    <form   action="./response.html" method="get">
+        <fieldset > <legend ><b>Applicant Details</b></legend>
+     <label for="fname"> Name: </label> 
+        <input type="text" name="fname" id="fname" > 
+
+       <label for=" lname">  Fathre's Name/Gaurdian's Name: </label> 
+       <input type="text" name="lname" id="lname"> <br>
+
+       <label for="dob"> Date of Birth: </label><br> 
+       <input type="date" name="dob" id="dob"> <br><br>
+       
+    <label for="gender" >Gender:</label>
+     <label for="male"> Male</label>
+       <input type="radio" name="gender" id="male">
+       <label for="female">Female</label>
+       <input type="radio" name="gender" id="female"><br><br>
+
+       <label for="aadhar">  Aadhar Number: </label> 
+       <input type="password" name="aadhar" id="aadhar" maxlength="12"> <br><br>
+
+        
+
+       <label for="phone">Mobile Number: </label> 
+       <input type="tel" name="phone" id="phone" pattern="[0-9]"> <br><br>
+        
+       <label for="photo"> Photo: </label> 
+       <input type="file"  id="photo"> <br>
+       </fieldset><br>
+       <fieldset>
+        <legend><b>Residential Address Details</b></legend>
+        <label for="address">Address:</label>
+         <textarea name="address" id="address"></textarea> 
+         <label for="district">District:</label>
+         <select name="district" id="district">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value=" Karimnagar">Karimnagar</option>
+            <option value="Nirmal">Nirmal</option>
+            <option value="Nizamabad">Nizamabad</option>
+         </select><br>
+         <label for="district">District:</label>
+         <select name="district" id="district">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value=" Karimnagar">Karimnagar</option>
+            <option value="Nirmal">Nirmal</option>
+            <option value="Nizamabad">Nizamabad</option>
+         </select>
+         <label for="village">Village:</label>
+         <select name="district" id="district">
+            <option value="ameerpet"> Ameerpet</option>
+            <option value="kukatpally">Karimnagar</option>
+            <option value="koti"> kukatpally</option>
+            <option value="uppal"> uppal</option>
+         </select><br><br>
+         <label for="pincode">Pincode: </label> 
+       <input type="password"  id="pincode" maxlength="6"> <br>
+       </fieldset>  <br>
+<fieldset>
+    <legend><b>Pass Type Details</b></legend>
+    <label for="city">City:</label>
+    <select name="district" id="district">
+       <option value="Hyderabad">Hyderabad</option>
+       <option value=" Karimnagar">Karimnagar</option>
+       <option value="Nirmal">Nirmal</option>
+       <option value="Nizamabad">Nizamabad</option>
+    </select>
+    <label for="passtype">Pass Type::</label>
+         <select name="passtype" id="passtype">
+            <option value="-select-"> -select- </option>
+            <option value="student pass">student opass </option>
+            <option value="general pass ">general pass</option>
+            <option value="ordinary pass "> ordinary pass</option>
+        </select><br>
+</fieldset><br>
+<fieldset>
+    <legend><b>Mode of Payment& Pass Collection</b></legend>
+    <label for="payment"> Payment Mode:</label>
+         <select name="payment " id="payment">
+            <option value="-select-"> -select mode of payment- </option>
+            <option value="online">PhonePe </option>
+            <option value="online">Gpay </option>
+            <option value="online">Paytm </option>
+    </select><br><br>
+
+    <label for="collectpass">Center at which you want to collect  pass:</label>
+         <select name="payment " id="payment">
+            <option value="-select-"> -select type- </option>
+            <option value="secunderabad">secunderabad </option>
+            <option value="medchal">medchal </option>
+            <option value="KPHB Colony">KPHB Colony </option>
+    </select>
+</fieldset>
+
+
+
+
+       </fieldset>
+       <br>
+   <center> <input type="submit" ></center>
+
+        
+    </form>
+</body>
+</html>
